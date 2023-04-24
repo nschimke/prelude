@@ -7,3 +7,5 @@
             (setq-local whitespace-line-column 99)))
 
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+
+(prelude-require-packages '(org-journal org-journal-tags highlight-indent-guides))
