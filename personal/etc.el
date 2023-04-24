@@ -5,3 +5,5 @@
 (add-hook 'rust-mode-hook
           (lambda ()
             (setq-local whitespace-line-column 99)))
+
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
